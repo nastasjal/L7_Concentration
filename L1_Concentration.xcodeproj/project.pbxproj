@@ -12,6 +12,8 @@
 		4D70E99421A59776008E525A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D70E99221A59776008E525A /* Main.storyboard */; };
 		4D70E99621A5977A008E525A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D70E99521A5977A008E525A /* Assets.xcassets */; };
 		4D70E99921A5977A008E525A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D70E99721A5977A008E525A /* LaunchScreen.storyboard */; };
+		4D70E9A221A747B3008E525A /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70E9A121A747B3008E525A /* Concentration.swift */; };
+		4D70E9A421A74865008E525A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70E9A321A74865008E525A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4D70E99521A5977A008E525A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D70E99821A5977A008E525A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D70E99A21A5977A008E525A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D70E9A121A747B3008E525A /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		4D70E9A321A74865008E525A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4D70E9A021A59A3C008E525A /* Supporting Files */,
 				4D70E99021A59776008E525A /* ViewController.swift */,
+				4D70E9A121A747B3008E525A /* Concentration.swift */,
+				4D70E9A321A74865008E525A /* Card.swift */,
 				4D70E99221A59776008E525A /* Main.storyboard */,
 				4D70E99A21A5977A008E525A /* Info.plist */,
 			);
@@ -145,6 +151,8 @@
 			files = (
 				4D70E99121A59776008E525A /* ViewController.swift in Sources */,
 				4D70E98F21A59776008E525A /* AppDelegate.swift in Sources */,
+				4D70E9A221A747B3008E525A /* Concentration.swift in Sources */,
+				4D70E9A421A74865008E525A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
