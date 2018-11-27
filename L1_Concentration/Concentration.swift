@@ -12,7 +12,7 @@ class Concentration
 {
     var cards = [Card]()
     
-    var indexOfoneAndOnlyOneFaceUpCard: Int? {
+    private var indexOfoneAndOnlyOneFaceUpCard: Int? {
         get {
             var foundIndex: Int?
             for index in cards.indices {
@@ -34,7 +34,7 @@ class Concentration
         }
     }
     
-    func chooseCard(at index: Int) {
+  func chooseCard(at index: Int) {
         if !cards[index].isMatched {
             if let matchesIndex = indexOfoneAndOnlyOneFaceUpCard , index != matchesIndex {
                 if cards[index].identifier == cards[matchesIndex].identifier {
