@@ -49,15 +49,15 @@ var numberOfPairsOfCards: Int {
             }
         }
     }
-    private var emoji=[Int:String]()
+    private var emoji=[Card:String]()
     
     private var emojiChoices = ["👁", "🗝", "🧸", "🧲", "🧩", "🚗", "🥎"]
     
     private func emoji (for card: Card) -> String {
-        if emoji[card.identifier] == nil , emojiChoices.count > 0 {
-            emoji[card.identifier] = emojiChoices.remove(at: Int(arc4random_uniform(UInt32(emojiChoices.count))))
+        if emoji[card] == nil , emojiChoices.count > 0 {
+            emoji[card] = emojiChoices.remove(at: Int(arc4random_uniform(UInt32(emojiChoices.count))))
         }
-        return emoji[card.identifier] ?? "?"
+        return emoji[card] ?? "?"
     }
     
 }
